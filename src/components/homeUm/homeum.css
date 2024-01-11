@@ -1,0 +1,93 @@
+.homeUm {
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.textosHomeUm {
+    margin-left: 1.5%;
+}
+.textosHomeUm h1 {
+    color: #fff;
+    font-size: 5.5ch;
+}
+.textosHomeUm h3 {
+    color: #43EA80;
+    animation: entrada 2s ease-out; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3.5ch;
+}
+@keyframes entrada {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.redesociaisHomeUm {
+    display: flex;
+    color: #fff;
+    font-size: 4.5ch;
+    gap: 15px;
+}
+.redesociaisHomeUm a {
+    color: #fff;
+}
+.iconHomeUm:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.animacaoHomeUm {
+    max-width: 50%;
+}
+.animacaoHomeUmMM {
+    display: none;
+}
+.homeUmbutton button{
+    background-color: #43EA80;
+    border: none;
+    border-radius: 5vh;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    font-size: 1.5ch;
+    cursor: pointer;
+    box-shadow: 5px 5px 0.8px #238145;
+}
+.homeUmbutton button:hover{
+    transform: scale(1.2);
+}
+.homeUmbutton {
+    margin-top: 70px;
+}
+.posicionamentoHomeUm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+@media screen and (max-width: 768px) { 
+    .textosHomeUm h1 {
+        font-size: 4.7ch;
+    }
+    .textosHomeUm {
+        padding-top: 80px;
+    }
+    .animacaoHomeUm {
+        display: none;
+    }
+    .animacaoHomeUmMM {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeUmbutton {
+        display: none;
+    }
+}

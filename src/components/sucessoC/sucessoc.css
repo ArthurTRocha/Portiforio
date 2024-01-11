@@ -1,0 +1,15 @@
+.sucessoC {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+.sucessoC h1 {
+    color: #fff;
+}
+.sucessoC img {
+    max-width: 70%;
+}

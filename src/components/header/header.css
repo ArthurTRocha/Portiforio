@@ -1,0 +1,36 @@
+.header {
+    background-color: #080C1C;
+    box-shadow: 2px 2px #43EA80;
+    width: 100%;
+}
+.headerr {
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.opcoesMenuHeader {
+    display: flex;
+    gap: 20px;
+}
+.opcoesMenuHeader span,a  {
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.opcoesMenuHeader span:hover, a:hover { 
+    transform: scale(1.2);
+}
+.logo img{
+    max-width: 25%;
+    object-fit: cover;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.projectSlideM h1{
+    text-align: center;
+    color: #000;
+}
+.projectSlideM {
+    background-color: #43EA80;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    min-height: 17rem;
+    max-height: 40rem;
+}
+.projectSlideM img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.projectImageM p {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.projectSlideM img:hover {
+    transform: scale(1.1); /* ou o valor desejado para o efeito de zoom */
+    transition: transform 0.3s ease-in-out; /* ou o tempo desejado */
+  }
+  

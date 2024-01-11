@@ -1,0 +1,18 @@
+.home {
+    background-color: #080C1C;
+    width: 100%;
+}
+.headerMobileee {
+    display: none;
+}
+body {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .headerMobileee {
+        display: block;
+    }
+    .headerrr {
+        display: none;
+    }
+}

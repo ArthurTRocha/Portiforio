@@ -1,0 +1,64 @@
+.homeDois {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 100px;
+}
+.homeDois h1 {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.iconHomeDois {
+    font-size: 4ch;
+    transform: scaleX(1.5); 
+    color: #43EA80;
+}
+.textoHomeDois p {
+    text-align: left;
+    color: #fff;
+    max-width: 43rem;
+    font-size: 2.3ch;
+}
+.phomeDois {
+    margin-top: 60px;
+}
+.pdoisHomeDois {
+    margin-top: 30px;
+}
+.animacaoHomeDois {
+    max-width: 20%;
+}
+.animacaoHomeDoisM {
+    display: none;
+}
+.animacaoHomeDoisMM {
+    display: none;
+}
+.posicionamentoHomeDois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .textoHomeDois p {
+        margin-left: 3%;
+    }
+    .animacaoHomeDoisMM {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .animacaoHomeDoisM {
+        display: block;
+        max-width: 70%;
+    }
+    .animacaoHomeDois{
+        display: none;
+    }
+ }

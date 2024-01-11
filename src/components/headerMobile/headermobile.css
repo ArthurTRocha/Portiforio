@@ -1,0 +1,53 @@
+.headerMobile {
+    width: 100%;
+    min-height: 25px;
+    background-color: #080C1C;
+    border-bottom: 1px solid #43EA80;
+    position: fixed;
+    z-index: 100;
+  }
+.IconMenuHeaderMobile {
+    color: #43EA80;
+    font-size: 7dvw;
+    cursor: pointer;
+}
+.mobileMenu {
+    position: fixed;
+    top: 8.5vw;
+    left: 0;
+    max-width: 100%; /* Ajuste conforme necessário */
+    min-height: 100%;
+    max-height: 100%;
+    border-right: 5px solid #43EA80;
+    border-bottom-right-radius: 20vh;
+    background-color: #080C1C;
+    z-index: 100;
+    padding-bottom: 5dvh;
+  }
+  .mobileMenu li {
+    padding: 10px;
+  }
+  .mobileMenu span,
+  .homeMobileButton {
+      color: #43EA80;
+      font-size: 7vw;
+      text-decoration: none;
+      text-shadow: 0px 2.5px 2px #43EA80;
+      font-weight: normal; 
+  }
+  
+  .mobileMenu span {
+      font-weight: normal; /* Remove o possível negrito */
+  }
+  .logoHeaderMobile img{
+    max-width: 50%;
+    object-fit: cover;
+  }
+  .logoHeaderMobile {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

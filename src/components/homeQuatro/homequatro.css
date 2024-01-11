@@ -1,0 +1,63 @@
+.HomeQuatro {
+    margin: auto;
+    max-width: 1000px;
+}
+.HomeQuatro h1 {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.textoHomeQuatro {
+    margin-bottom: 30px;
+}
+.habilidadeHomeQuatro  p{
+    width: 100%;
+}
+.habilidadeHomeQuatro h1 {
+    color: #43EA80;
+    text-align: center;
+}
+.habilidadeHomeQuatro p {
+    color: #fff;
+}
+.html {
+    color: #f83a00;
+    font-size: 5ch;
+}
+.css {
+    color: #006cf8;
+    font-size: 5ch;
+}
+.js {
+    color: #fffb00;
+    font-size: 5ch;
+}
+.node {
+    color: #04eb58;
+    font-size: 6ch;
+
+}
+.python {
+    color: #fffb00;
+    font-size: 5ch;
+}
+.react {
+    color: #006cf8;
+    font-size: 5ch;
+}
+.iconehtmlcssjs {
+    text-align: center;
+    width: 100%;
+}
+.reactJSNative {
+    margin-top: 15px;
+}
+.iconenode {
+    margin-top: 15px;
+}
+.iconepython {
+    margin-top: 15px;
+}
