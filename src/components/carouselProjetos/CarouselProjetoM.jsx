@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./carouselProjetoM.css";
+import "./carouselprojetom.css";
 import allboro from "../../assets/images/allboro.png";
 import fastplay from "../../assets/images/fastplay.png";
 import programacao from "../../assets/images/programacao.png";

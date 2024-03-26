@@ -57,7 +57,7 @@ function HomeQuatro (){
                         </div>
                         
                     </div>
-                    <div className="iconenode">
+                    {/* <div className="iconenode">
                         <div className="textosnode">
                         <h1>Node JS</h1>
                         <p>
@@ -76,7 +76,7 @@ function HomeQuatro (){
                         amplamente usada em diversos domínios, como desenvolvimento web e análise de 
                         dados, devido à sua sintaxe clara e comunidade ativa.</p>
                         <div className="iconehtmlcssjs"><FaPython className="python"/></div>
-                    </div>
+                    </div> */}
             </div>
         </div>
     )
