@@ -1,4 +1,3 @@
-import React from 'react'
 import "../../styles/home.css"
 import Header from '../components/header/Header';
 import HomeUm from '../components/homeUm/HomeUm';
@@ -18,6 +17,7 @@ function Home (){
             <HomeDois/>
             <HomeTres/>
             <HomeQuatro/>
+            TESTE
             <HomeCinco/>
         </div>
     )
