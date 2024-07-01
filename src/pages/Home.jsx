@@ -17,7 +17,7 @@ function Home (){
             <HomeDois/>
             <HomeTres/>
             <HomeQuatro/>
-            TESTE
+            TESTEsacs
             <HomeCinco/>
         </div>
     )
